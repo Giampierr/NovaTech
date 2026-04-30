@@ -1,4 +1,7 @@
 import {BsFacebook,BsLinkedin,BsX,BsYoutube,BsEnvelope,BsTelephone,BsGeoAlt} from "react-icons/bs"
+import Logo from '../assets/img/inicio/header/logosin.png'
+import './footer.scss'
+
 export function Footer(){
 
     const year = new Date().getFullYear();
@@ -8,15 +11,15 @@ export function Footer(){
             <div className="footer__container">
                 <div className="footer__section">
                     <div className="footer__section__logo">
-                        <img src="" alt="" />
-                        <h1>Nova<span>Tech</span></h1>
+                        <img src={Logo} alt="" />
+                        <h3>Nova<span>Tech</span></h3>
                     </div>
                     <p>Tu destino para componentes de computadora de alto rendimiento .Calidad, garantía y los mejores precios .</p>
                     <div className="footer__section__redes">
-                        <BsFacebook></BsFacebook>
-                        <BsLinkedin></BsLinkedin>
-                        <BsX></BsX>
-                        <BsYoutube></BsYoutube>
+                        <BsFacebook className="icon__redes"></BsFacebook>
+                        <BsLinkedin className="icon__redes"></BsLinkedin>
+                        <BsX className="icon__redes"></BsX>
+                        <BsYoutube className="icon__redes"></BsYoutube>
                     </div>
                 </div>
                 <div className="footer__section">
@@ -30,15 +33,15 @@ export function Footer(){
                 <div className="footer__section">
                     <h3>CONTACTO</h3>
                     <div className="footer__section__contacto">
-                        <BsEnvelope></BsEnvelope>
+                        <BsEnvelope className="icon__contacto"></BsEnvelope>
                         <p>info@novatech.com</p>
                     </div>
                     <div className="footer__section__contacto">
-                        <BsTelephone></BsTelephone>
+                        <BsTelephone className="icon__contacto"></BsTelephone>
                         <p>+51(01) 123-4567</p>
                     </div>
                     <div className="footer__section__contacto">
-                        <BsGeoAlt></BsGeoAlt>
+                        <BsGeoAlt className="icon__contacto"></BsGeoAlt>
                         <p>Av. Tencología 1024, Lima</p>
                     </div>
                 </div>

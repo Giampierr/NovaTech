@@ -1,0 +1,68 @@
+@mixin style__icon($cl,$bc){
+    color: $cl;
+    background-color: $bc;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 8px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    background-color: #3056d4;
+    .footer__container{
+        display: grid;
+        grid-template-columns: repeat(4,275px);
+        gap: 12px;
+        padding: 16px;
+        justify-content: center;
+        align-items: start;
+        .footer__section{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            h3{
+
+            }
+            a{
+                text-decoration: none;
+            }
+            .footer__section__logo{
+                display: flex;
+                align-items: center;
+                padding: 16px;
+                img{
+                    max-width: 35px;
+                    color: white;
+                }
+                
+            }
+            .footer__section__redes{
+            display: flex;
+            justify-content: start;
+            padding: 16px;
+            gap: 12px;
+            .icon__redes{
+                @include style__icon(pink, gray)
+            }
+        }
+        .footer__section__contacto{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            .icon__contacto{
+                @include style__icon(rgb(48, 48, 231), #3056d4)
+            }
+        }
+        }
+        
+    }
+    .footer__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+}
