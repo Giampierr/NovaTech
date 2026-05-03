@@ -1,5 +1,5 @@
 import {BsFacebook,BsLinkedin,BsX,BsYoutube,BsEnvelope,BsTelephone,BsGeoAlt} from "react-icons/bs"
-import Logo from '../assets/img/inicio/header/logosin.png'
+import Logo from '../../assets/img/inicio/header/logosin.png'
 import './footer.scss'
 
 export function Footer(){

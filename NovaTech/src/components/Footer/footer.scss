@@ -1,24 +1,5 @@
-@mixin style__icon($cl,$bc){
-    color: $cl;
-    background-color: $bc;
-    width: 38px;
-    height: 38px;
-    border-radius: 15px;
-    padding: 8px;
-}
-@mixin style__button($cl,$bc,$hbc){
-    color: $cl;
-    background-color: $bc;
-    border: none;
-    padding: 0 20px;
-    border-radius: 8px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background 0.3s;
-    &:hover{
-        background-color: $hbc;
-    }
-}
+@use "../../assets/scss/mixin";
+
 footer{
     display: flex;
     flex-direction: column;
@@ -29,7 +10,7 @@ footer{
     font-family: 'Segoe UI';
     p{
         color: #94a3b8;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.6;
     }
     h3{
@@ -76,7 +57,7 @@ footer{
             padding: 16px;
             gap: 12px;
             .icon__redes{
-                @include style__icon(#1e293b, #1e293b)
+                @include mixin.style__icon(#d6b5d5, #1e293b)
             }
         }
         .footer__section__contacto{
@@ -84,7 +65,7 @@ footer{
             align-items: center;
             gap: 12px;
             .icon__contacto{
-                @include style__icon(#2563eb, #1e293b)
+                @include mixin.style__icon(#2563eb, #1e293b);
             }
         }
         .footer__section_suscribete{
@@ -100,7 +81,7 @@ footer{
             outline: none;
             }
             button{
-            @include style__button(white, #ef4444, #dc2626)
+            @include mixin.style__button(white, #ef4444, #dc2626)
         }
         }
     }
@@ -110,10 +91,13 @@ footer{
         justify-content: space-evenly;
         .footer__bottom_section{
             display: flex;
+            align-items: center;
             gap: 16px;
             a{
                 text-decoration: none;
+                color: #cbd5e1;
             }
         }
     }
+    
 }

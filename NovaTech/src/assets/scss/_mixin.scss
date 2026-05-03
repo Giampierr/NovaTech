@@ -1,0 +1,21 @@
+@mixin style__icon($cl,$bc){
+    color: $cl;
+    background-color: $bc;
+    width: 38px;
+    height: 38px;
+    border-radius: 15px;
+    padding: 8px;
+}
+@mixin style__button($cl,$bc,$hbc){
+    color: $cl;
+    background-color: $bc;
+    border: none;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s;
+    &:hover{
+        background-color: $hbc;
+    }
+}
