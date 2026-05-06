@@ -1,0 +1,23 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    .products__section__titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .products__section__enlace{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+    .products__section{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+}

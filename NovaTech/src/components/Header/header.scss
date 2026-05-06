@@ -1,13 +1,25 @@
+@use '../../assets/scss/reset';
 header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Segoe UI';
     .header__section{
         display: flex;
         align-items: center;
         gap: 12px;
         img{
-            width: 45px;
+            height: 45px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+        span{
+            color:#ef4444 ;
+        }
+        a{
+        color: #64748b;
         }
     }
+    
 }
