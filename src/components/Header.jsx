@@ -28,7 +28,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="nav-link">
+              <Link to="/nosotros" className="nav-link active">
                 Nosotros
               </Link>
             </li>
