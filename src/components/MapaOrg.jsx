@@ -25,6 +25,6 @@ export function MapaOrg(){
             </div>
         </div>
         </>
-        
+
     )
 }
