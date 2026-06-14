@@ -1,0 +1,26 @@
+.organigrama{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    font-family:Poppins,sans-serif;
+}
+
+.cargo{
+    background:#2563eb;
+    color:white;
+    padding:12px 24px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.linea{
+    width:2px;
+    height:30px;
+    background:#333;
+}
+
+.equipo{
+    display:flex;
+    gap:30px;
+}
