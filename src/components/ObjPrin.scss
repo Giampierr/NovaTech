@@ -1,0 +1,142 @@
+/* Objprin componente */
+
+.objprin {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+}
+
+.objprin .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.objprin .section-title {
+    font-size: 2.5rem;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.objprin .highlight {
+    color: var(--primary-blue);
+}
+
+.objprin .section-subtitle {
+    color: var(--text-muted);
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+
+/* Objetivo principal */
+.objprin-grid {
+    margin-bottom: 1rem;
+}
+
+.objprin-pres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.objprin-text-pres {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    z-index: 2;
+}
+
+.section-title-prin {
+    font-size: 2rem;
+    color: var(--text-main);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+.section-subtitle-prin {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.objprin-image-pres {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    justify-self: end;
+    width: 90%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.objprin-image-pres img {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    object-fit: contain;
+}
+/* Grid 3 columnas (Objetivos específicos) */
+.objesp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.objesp-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    &:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Caja de imagen */
+.objesp-image-box {
+    width: 300px;  /* Aumentado de 100px */
+    height: 300px; /* Aumentado de 70px a 140px para hacer un cuadrado amplio */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.objesp-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    font-size: 0.85rem;
+}
+
+/* Animación ratón */
+.objesp-card:hover .objesp-image-box {
+    transform: translateY(-15px);
+}
+
+/* Título objetivo específico */
+.section-title-esp {
+    font-size: 1.4rem; /* Un poco más grande para acompañar al nuevo icono */
+    color: var(--text-main);
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+/* Párrafo objetivo específico */
+.section-subtitle-esp {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 350px; /* Evita que el texto se estire demasiado hacia los lados */
+    margin: 0 auto;   /* Mantiene el texto perfectamente centrado debajo del título */
+}
+
+/* Centrado del cohete */
+.icono-cohete {
+    transform: translateY(30px); /* Sube o baja este número (ej: 10px, 20px) hasta que lo veas alineado */
+}

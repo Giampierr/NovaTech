@@ -1,0 +1,155 @@
+.matriz-section {
+    padding: 60px 20px;
+    background-color: var(--light-bg);
+}
+
+.matriz-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--text-main);
+    margin-bottom: 10px;
+}
+
+.matriz-subtitulo {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+/* Leyenda */
+.matriz-leyenda {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+.leyenda-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: var(--text-main);
+}
+
+.leyenda-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* Tabla */
+.matriz-wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.matriz-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-width: 750px;
+}
+
+.matriz-table thead tr {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.col-actividad-head {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 0.85rem;
+    font-weight: 600;
+    min-width: 240px;
+}
+
+.matriz-table thead th {
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.head-rol {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 400;
+    opacity: 0.85;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.head-nombre {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.matriz-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background 0.2s;
+}
+
+.matriz-table tbody tr:hover {
+    background-color: #f0f4ff;
+}
+
+.matriz-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.col-actividad {
+    padding: 12px 18px;
+}
+
+.act-nombre {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.act-fase {
+    display: block;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: 3px;
+}
+
+.col-celda {
+    text-align: center;
+    padding: 10px 6px;
+}
+
+/* Badges RACI */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.badge-R { background-color: #2563eb; }
+.badge-A { background-color: #ef4444; }
+.badge-C { background-color: #f59e0b; }
+.badge-I { background-color: #10b981; }

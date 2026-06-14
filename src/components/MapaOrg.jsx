@@ -2,24 +2,29 @@ import './MapaOrg.scss'
 
 export function MapaOrg(){
     return(
-        <div class="organigrama">
-    <div class="nivel">
-        <div class="cargo">Product Owner</div>
-    </div>
+        <>
+        <h2>Ornanigrama</h2>
+        <div className="organigrama">
+            <div className="nivel">
+                <div className="cargo">Product Owner :Melo Mayta Angelo</div>
+            </div>
 
-    <div class="linea"></div>
+            <div className="linea"></div>
 
-    <div class="nivel">
-        <div class="cargo">Scrum Master</div>
-    </div>
+            <div className="nivel">
+                <div className="cargo">Scrum Master :Huarac Valle Manuel Angel</div>
+            </div>
 
-    <div class="linea"></div>
+            <div className="linea"></div>
 
-    <div class="equipo">
-        <div class="cargo">Frontend</div>
-        <div class="cargo">Backend</div>
-        <div class="cargo">QA Tester</div>
-    </div>
-</div>
+            <div className="equipo">
+                <div className="cargo">Developer : Leon Mejia Jhassir</div>
+                <div className="cargo">Developer : Quispe Orihuela Fernando Gabriel </div>
+                <div className="cargo">Developer : Llacctahuaman David</div>
+                <div className="cargo">Developer : Quispe Orihuela Fernando Gabriel </div>
+            </div>
+        </div>
+        </>
+
     )
 }
