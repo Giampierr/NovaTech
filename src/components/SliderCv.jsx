@@ -8,7 +8,7 @@ export function SliderCv() {
       nombre: "Fernando Gabriel",
       rol: "Desarrollo Frontend y Arquitectura de Sistemas",
       descripcion:"Estudiante de Ingeniería de Sistemas especializado en Desarrollo Web (Frontend y Backend) y gestión de infraestructura de redes. Apasionado por la tecnología, con experiencia en tecnologías como React, Java y entornos Cisco, enfocado en crear soluciones de software eficientes y escalables.",
-      pdfUrl: "/cvs/cv-Fernando Quispe.pdf" // Recuerda colocar los PDFs en la carpeta public/cvs/
+      pdfUrl: "/cvs/cv-Fernando Quispe.pdf" 
     },
     {
       id: 2,
