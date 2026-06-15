@@ -7,35 +7,35 @@ export function SliderCv() {
       id: 1,
       nombre: "Fernando Gabriel",
       rol: "Desarrollo Frontend y Arquitectura de Sistemas",
-      descripcion: "Estudiante de Ingeniería de Sistemas encargado de implementar la lógica de componentes modulares y optimización de interfaces de usuario.",
+      descripcion:"Estudiante de Ingeniería de Sistemas especializado en Desarrollo Web (Frontend y Backend) y gestión de infraestructura de redes. Apasionado por la tecnología, con experiencia en tecnologías como React, Java y entornos Cisco, enfocado en crear soluciones de software eficientes y escalables.",
       pdfUrl: "/cvs/cv-Fernando Quispe.pdf" // Recuerda colocar los PDFs en la carpeta public/cvs/
     },
     {
       id: 2,
       nombre: "Angel Huarac",
       rol: "Desarrollo Backend y Gestión de Repositorios",
-      descripcion: "Estudiante de Ingeniería de Sistemas encargado del despliegue del proyecto, configuración de herramientas de desarrollo y control de versiones.",
+      descripcion: "Estudiante universitario con sólida experiencia en la gestión operativa de almacenes, control de inventarios y logística de distribución. Se destaca por su eficiencia bajo presión, coordinación con proveedores y optimización de flujos de mercancías, asegurando el cumplimiento estricto de plazos y estándares de calidad.",
       pdfUrl: "/cvs/cv2-Angel.pdf"
     },
     {
       id: 3,
       nombre: "Jhassir León",
       rol: "Diseño UI/UX y Documentación",
-      descripcion: "Encargado del prototipado en Figma, diseño visual de las vistas del hardware y elaboración de la documentación del proyecto.",
+      descripcion: "Estudiante de Ingeniería de Sistemas e Informática con especialización en Redes y Comunicaciones, desempeñándose actualmente como Analista de Datos. Combina un fuerte pensamiento analítico con habilidades técnicas para la recopilación, procesamiento e interpretación de datos estadísticos orientados a la toma de decisiones estratégicas.",
       pdfUrl: "/cvs/cv3-Jhassir.pdf"
     },
     {
       id: 4,
       nombre: "David Curo",
       rol: "Diseño UI/UX y Documentación",
-      descripcion: "Encargado del prototipado en Figma, diseño visual de las vistas del hardware y elaboración de la documentación del proyecto.",
+      descripcion: "Estudiante de Ingeniería de Sistemas e Informática posicionado en el tercio superior académico. Cuenta con competencias integrales que abarcan desde el análisis de datos (Power BI, SQL) y desarrollo Frontend hasta la gestión de infraestructura de redes (Cisco) y la optimización de procesos logísticos para e-commerce.",
       pdfUrl: "/cvs/cv-David.pdf"
     },
     {
       id: 5,
       nombre: "Abel Moises",
       rol: "Diseño UI/UX y Documentación",
-      descripcion: "Encargado del prototipado en Figma, diseño visual de las vistas del hardware y elaboración de la documentación del proyecto.",
+      descripcion: "Estudiante de Ingeniería de Software enfocado en el desarrollo de aplicaciones web y móviles con criterios de escalabilidad horizontal. Cuenta con sólida formación en tecnologías Frontend (React, Next.js) y gestión de persistencia de datos con Spring Web JPA, destacando por su enfoque colaborativo en la integración de arquitecturas lógicas.",
       pdfUrl: "/cvs/cv4-Abel.pdf"
     },
   ];
