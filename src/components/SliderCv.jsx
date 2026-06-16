@@ -49,17 +49,21 @@ export function SliderCv() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === estudiantes.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+const nextSlide = () => {
+  if (currentIndex === estudiantes.length - 1) {
+    setCurrentIndex(0);
+  } else {
+    setCurrentIndex(currentIndex + 1); 
+  }
+};
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? estudiantes.length - 1 : prevIndex - 1
-    );
-  };
+const prevSlide = () => {
+  if (currentIndex === 0) {
+    setCurrentIndex(estudiantes.length - 1); 
+  } else {
+    setCurrentIndex(currentIndex - 1); 
+  }
+};
 
   // Estilos inline básicos para asegurar que se vea excelente y profesional
   const styles = {
