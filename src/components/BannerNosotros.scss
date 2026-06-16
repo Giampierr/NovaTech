@@ -1,0 +1,16 @@
+* BANNER NOSOTROS */
+#carouselNosotros {
+    max-height: 800px;
+    overflow: hidden;
+}
+
+#carouselNosotros img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.banner-img {
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(0.75);
+}

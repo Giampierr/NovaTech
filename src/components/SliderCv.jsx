@@ -38,6 +38,13 @@ export function SliderCv() {
       descripcion: "Estudiante de Ingeniería de Software enfocado en el desarrollo de aplicaciones web y móviles con criterios de escalabilidad horizontal. Cuenta con sólida formación en tecnologías Frontend (React, Next.js) y gestión de persistencia de datos con Spring Web JPA, destacando por su enfoque colaborativo en la integración de arquitecturas lógicas.",
       pdfUrl: "/cvs/cv4-Abel.pdf"
     },
+    {
+      id: 6,
+      nombre: "Angelo Melo",
+      rol: "Diseño UI/UX ",
+      descripcion: "Estudiante de Ingeniería de Software enfocado en el desarrollo de aplicaciones web. Cuenta con sólida formación en tecnologías Frontend (React, Angular,Next.js).",
+      pdfUrl: "/cvs/cv5-Angelo.pdf"
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
