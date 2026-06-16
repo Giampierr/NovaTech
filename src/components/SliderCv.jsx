@@ -164,10 +164,7 @@ export function SliderCv() {
           <a 
             href={estudiantes[currentIndex].pdfUrl} 
             target="_blank" 
-            rel="noopener noreferrer" 
             style={styles.buttonLink}
-            onMouseOver={(e) => e.target.style.backgroundColor = '#0369a1'}
-            onMouseOut={(e) => e.target.style.backgroundColor = '#0284c7'}
           >
             Ver Currículum (PDF)
           </a>
